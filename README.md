@@ -22,7 +22,7 @@ to do that, we will follow these steps :
 
 * save the changes and restart the ssh service using `sudo service ssh restart`
 
-* if we want to connect to the server another time via the terminal we use the following command : `ssh -i ~/.ssh/lightsail_key.rsa -p 2200 ubuntu@15.188.77.10` , (15.188.77.10 is the public IP).
+* if we want to connect to the server another time via the terminal we use the following command : `ssh -i ~/.ssh/bazakey.rsa -p 2200 ubuntu@15.188.77.10` , (15.188.77.10 is the public IP).
 
 4- Configure the Uncomplicated Firewall (UFW) to only allow incoming connections for SSH (port 2200), HTTP (port 80), and NTP (port 123), we follow these steps :
 
